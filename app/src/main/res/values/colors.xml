@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">	#FF6347</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBar">#fff</color>
+    <color name="backgroundColor">#35E4B9</color>
+    <color name="textColor">#0A74FF</color>
+    <color name="hintColor">#D3D3D3</color>
+    <color name="overlay_color">#55333639</color>
+    <color name="border_color">#AA333639</color>
+    <color name="dialog_header_color">#c5c5c5</color>
+    <color name="dialog_text_color">#464646</color>
+</resources>

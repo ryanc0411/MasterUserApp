@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168467258781",
+    "firebase_url": "https://doorlock-c8b93.firebaseio.com",
+    "project_id": "doorlock-c8b93",
+    "storage_bucket": "doorlock-c8b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168467258781:android:d043ab6652a7fbcbc4a374",
+        "android_client_info": {
+          "package_name": "com.example.masteruserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168467258781-2sec1rsr44lr02fspnqbqob2r7he3u14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.masteruserapp",
+            "certificate_hash": "1801681ad1dae744b6b381229bcd8182e563be66"
+          }
+        },
+        {
+          "client_id": "168467258781-jpvfrpske30d1qvo1g34dak5i997ac0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfDEIwrRK97bUrbrVICQPLdbQUC4HenHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168467258781-jpvfrpske30d1qvo1g34dak5i997ac0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
