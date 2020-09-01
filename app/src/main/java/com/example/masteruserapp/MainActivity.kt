@@ -10,6 +10,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.onesignal.OneSignal
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +22,17 @@ class MainActivity : AppCompatActivity() {
                 setContentView(R.layout.activity_main)
 
         sharedPreferences = this.getSharedPreferences("DoorMacAddress", Activity.MODE_PRIVATE)
+
+        // Logging set to help debug issues, remove before releasing your app.
+        OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
+
+        // OneSignal Initialization
+        OneSignal.startInit(this)
+            .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+            .unsubscribeWhenNotificationsAreDisabled(true)
+            .init()
+
+        OneSignal.sendTag("User_ID","user2@gmail.com")
 
         FirebaseDatabase.getInstance()
             .getReference("door")
