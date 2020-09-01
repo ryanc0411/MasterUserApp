@@ -2,7 +2,7 @@
     <string name="app_name">DOOR LOCK Master APP</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">TARUC FOOD</string>
+    <string name="nav_header_title">DoorLock MasterApp</string>
     <string name="nav_header_subtitle">You are not logged in</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -44,6 +44,7 @@
     <string name="mm_yy">MM/YY</string>
     <string name="cvc">CVC</string>
     <string name="action_filter">Filter</string>
+    <string name="MACaddressofSmartdoorlock">Enter your Smart Door Lock MAC Address</string>
 
 
 </resources>

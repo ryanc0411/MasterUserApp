@@ -11,6 +11,11 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home"/>
 
+    <fragment
+        android:id="@+id/nav_resetPin"
+        android:name="com.example.masteruserapp.ui.resetPin.ResetPinFragment"
+        android:label="Reset Pin"
+        tools:layout="@layout/fragment_resetpin"/>
 
     <fragment
         android:id="@+id/nav_logout"
